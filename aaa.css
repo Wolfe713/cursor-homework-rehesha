@@ -46,6 +46,7 @@ margin-bottom: 26px;}
     border-radius: 2px;
    margin-top: 18px;
    cursor: pointer;
+   border: none;
 margin-bottom: 18px;
 margin-left: 40px;
 margin-right: 120px;}
@@ -80,6 +81,7 @@ margin: 16px auto;}
         padding-left: 0px;
         padding-right: 0px;
         background-color:#2B2627 ;
+        border: none;
         width: 16px;
         height: 16px;
         margin-inline: 20px;
@@ -180,6 +182,8 @@ margin: 16px auto;}
             color: #26262B;
             flex: none;
             order: 0;
+            border: none;
+            cursor: pointer;
             flex-grow: 0;
             background-color: #FFFFFF;
             border-radius: 8px}
@@ -344,6 +348,8 @@ line-height: 24px;}
         height: 44px;
           background: #4A7EFF;
         border-radius: 43px;
+        border: none;
+        cursor: pointer;
     margin-top: 60px;
     font-family: 'Inter';
     font-style: normal;
@@ -396,6 +402,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 17px;
+border: none;
 color: #FFFFFF;
 text-align: center;
 margin-left: 160px;
