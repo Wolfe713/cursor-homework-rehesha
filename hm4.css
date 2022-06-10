@@ -1,0 +1,450 @@
+* {box-sizing: border-box;}
+.header {
+    position: absolute;
+width: 1440px;
+height: 500px;
+margin-top: 0px;
+margin-left: 0px;
+background-color: #ED4C5C;}
+
+.caption {
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #FFFFFF;  }
+  
+.headertx {position: absolute;
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF; }
+
+.links {position: absolute;
+    width: 30%;
+    height: 32px;
+    left: 163px;
+    top: 70%;}   
+    .play {position: absolute;
+        left: 0px;
+        top:0px;
+        width: 32px;
+        height: 32px;}
+     
+    .apple {position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 0px;
+        left: 55px;} 
+      
+    .window {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 5px;
+        left: 110px;} 
+.imgbcg {position: absolute;
+    width: 533px;
+    height: 267px;
+    left: 791px;
+    top: 116px;
+    opacity: 0.5;
+    background: url(.jpg), #C4C4C4;
+    border-radius: 15px;}        
+        
+.imgheader {
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 835px;
+    top: 94px;
+    background: url(.jpg), #C4C4C4;
+    border-radius: 15px;}
+
+.text {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;}  
+    
+    .main-title {position: absolute;
+        width: 445px;
+        height: 107px;
+        left: 176px;
+        top: 117px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        
+        color: #000000;}
+    .questions {position: absolute;
+        width: 434px;
+        height: 64px;
+        left: 176px;
+        top: 213px;
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: justify;
+        
+        color: #000000;}    
+        
+    .input {
+        position: absolute;
+        width: 35%;
+        height: 350px;
+        left: 735px;
+        top: 117px;
+        background: #FFFFFF;}
+        .name {position: absolute;
+            width: 100%;
+            height: 60px;}
+        input[name=first-name] { font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+            border-radius: 6px;
+            border: 1px solid #333333;
+            position: absolute;
+            width: 255px;
+            height: 60px;
+            padding: 21px 0px 20px 31px;}
+        input[name=last-name] { font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+            border: 1px solid #333333;
+            border-radius: 6px;
+            position: absolute;
+            width: 255px;
+            height: 60px;
+            left: 30px;
+            padding: 21px 0px 20px 31px;
+            margin: 0px 255px;}
+        .phone-number {position: absolute;
+            width: 540px;
+            height: 350px;
+            left: 0px;
+            top: 95px;
+            background: #FFFFFF ;} 
+        input[name=phone-number]  {position: absolute;
+            width: 540px;
+            height: 60px;
+            border: 1px solid #333333;
+            border-radius: 6px; 
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+            padding: 21px 0px 20px 31px; }
+        select[name=select-service] {
+            position: absolute;
+            width: 540px;
+            height: 60px;
+            top: 95px;
+            border: 1px solid #333333;
+            border-radius: 6px;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5); 
+            padding: 21px 0px 20px 31px;} 
+        .submit {position: absolute;
+            width: 160px;
+            height: 50px;
+            bottom: 0px;}
+        button {position: absolute;
+            background: #ED4C5C;
+            border: 1.5px solid #ED4C5C;
+            border-radius: 6px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            width: 160px;
+            height: 50px;
+            color: #FFFFFF; }
+            
+    .footer {position: absolute;
+        width: 1440px;
+        height: 435px;
+        left: 0px;
+        top: 1045px;
+        background: #FAFAFA; }  
+        
+        .footer1 { position: absolute;
+            width: 75%;
+            height: 160px;
+            top: 80px;
+            left: 30px;}
+        .address { position: absolute;
+            width: 20%;
+            height: 160px;}
+        .address h5 { font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #101010;
+            position: absolute;
+            width: 65px;
+            height: 22px;
+            left: 166px;
+            top: 85px;}
+        .address p {  font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            color: #101010;
+            position: absolute;
+            width: 254px;
+            left: 166px;
+            top: 140px;}
+    
+        .services {position: absolute;
+            width: 20%;
+            height: 160px;
+            left: 50%;}  
+        .services h5 {position: absolute;
+            width: 67px;
+            height: 22px;
+            left: 0px;
+            top: 85px;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #101010;} 
+        .services p {position: absolute;
+            width: 254px;
+            height: 114px;
+            left: 0px;
+            top: 140px;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 160%;
+            color: #000000;}  
+        .Get {position: absolute;
+            width: 20%;
+            height: 128px;
+            left: 75%;} 
+        .Get h5 {position: absolute;
+            width: 101px;
+            height: 22px;
+            top: 85px;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #101010; } 
+        .Get h6 {position: absolute;
+            width: 122px;
+            height: 14px;
+            top: 140px;
+            font-family: 'Lato',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #101010;} 
+        .Get p {
+            position: absolute;
+            width: 96px;
+            height: 14px;
+            top: 160px;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #121212; } 
+        .socials {position: absolute;
+           width: 122px;
+           height: 12px;
+           top: 195px;}
+        .Fb {position: absolute;
+           width: 12px;
+           height: 12px;} 
+        .In {position: absolute;
+            width: 12px;
+            height: 12px;
+            left: 30px;}
+        .Tw {position: absolute;
+            width: 12px;
+            height: 12px;
+            left: 60px;}  
+        .paysystem {position: absolute;
+            width: 25%;
+            height: 90px;
+            left: 1022px;}  
+        .paysystem h5 {position: absolute;
+            width: 96px;
+            height: 22px;
+            left: 0px;
+            top: 80px;
+            color: #101010;
+            font-family: 'Lato',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;}
+        .paysystem img {position: absolute;
+            width: 216px;
+            height: 31px;
+            left: 5px;
+            top: 140px;}  
+        .copyright {position: absolute;
+            width: 155px;
+            height: 14px;
+            left: 161px;
+            top: 335px;} 
+        .copyright p {position: absolute;
+            width: 155px;
+            height: 14px;
+            font-family: 'Lato',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #101010;}  
+                   
+          
+            
+
+            
+            
+            
+            
+                         
+           
+
+           
+            
+             
+            
+            
+           
+             
+            
+          
+            
+               
+           
+            
+            
+            
+            
+              
+
+           
+            
+           
+            
+                 
+
+          
+            
+            
+           
+
+           
+
+            
+          
+             
+            
+           
+
+
+            
+
+
+
+       
+          
+            
+            
+           
+            
+           
+
+
+            
+          
+
+
+
+
+
+
+
+         
+          
+
+    
+           
+           
+     
+          
+       
+
+
+  
+
+         
+        
+        
+      
+        
+        
+       
+        
+  
+        
+        
+
+
+ 
+    
+    
