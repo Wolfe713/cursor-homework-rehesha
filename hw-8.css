@@ -1,0 +1,101 @@
+.wrap {
+    display: flex;   }
+
+.item { background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    }
+
+.item:last-child {background-color: blue;}
+.box1 > .item {background-color: red;}
+
+.btn { position: relative;
+       margin-top: 129px;
+       margin-left: 434px;}
+
+ button {position: absolute;
+    width: 501px;
+    height: 92px;
+    
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;}
+    
+.btn::after {
+    content: "" ;
+    display: block;
+    position: absolute;
+width: 200px;
+height: 2px;
+left: 545px;
+top: 40px;
+background: #C4C4C4; 
+}
+button::after {
+    content: "" ;
+    display: block;
+    position: absolute;
+width: 200px;
+height: 2px;
+left: 545px;
+top: 48px;
+background: #C4C4C4;
+}
+
+.btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    left: -246px;
+    top: 40px;
+    background: #C4C4C4;
+}
+button::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    left: -246px;
+    top: 48px;
+    background: #C4C4C4;
+}
+
+  
+    
+      
+  
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
