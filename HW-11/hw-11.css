@@ -1,0 +1,122 @@
+header a {
+    text-decoration: none;
+}
+header input {
+    background-image: url(search.png);
+    background-position-x: 33%;
+    background-position-y: 50%;
+    background-size: 4%;
+    background-repeat: no-repeat;
+}
+header {
+    border-bottom: 1px solid #DBDBDB;
+}
+.follow {
+    width: 97px;
+}
+.link-primary {
+    text-decoration: none;
+    }
+    .bit {color: #133768;}
+.posts { height: 70px;
+    border-top: 1px solid #DBDBDB;
+}    
+
+.lorem {
+    margin: 0;
+    padding: 0;
+}
+.post {
+    border-top: 1px solid black;
+}
+
+@media (max-width: 1200px) {
+    .content svg {
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 992px) {
+    .content svg {
+        transform: scale(0.6);
+       
+    }
+    header input {
+        background-image: none;
+    }
+    .follow {
+        margin-left: 20px;
+    }
+    .dropdown-toggle {
+        margin-left: 40px;
+    }
+    .dots {
+        margin-left: 60px;
+    }
+}
+@media (max-width: 768px) {
+    body { width: 360px;
+    margin: 0 auto;}
+ header {
+    position: relative;
+    height: 80px;
+ } 
+ header img {
+    position: absolute;
+    left: 30px;
+ } 
+
+ header input {
+      position: absolute;
+    top: 30px;
+    left: -60px;
+   }  
+ header .nav1 {
+  display: flex;
+  position: absolute;
+  left: 150px;
+ }   
+ .follow {
+    margin-left: 40px;
+}
+.dropdown-toggle {
+    margin-left: 100px;
+}
+.dots {
+  margin-left: 210px;
+  margin-top: -35px;
+
+}
+.followers {
+    font-size: 14px;
+    gap: 15px;
+}
+.name svg {
+   transform: scale(0.8); 
+}   
+.name1 {
+    margin-left: 30px;
+}
+.name2 {
+    margin-left: 30px;
+}
+.name .col-1 {
+    margin-right: 30px;
+}
+.tagged {
+    margin-left: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+   
+
+}
+
+}        
+    
+    
+   
+  
